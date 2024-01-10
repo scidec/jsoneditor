@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/jsoneditor.svg)](https://www.npmjs.com/package/jsoneditor)
 [![Downloads](https://img.shields.io/npm/dm/jsoneditor.svg)](https://www.npmjs.com/package/jsoneditor)
-[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)](https://github.com/josdejong/jsoneditor/pulse)
+[![Maintenance](https://img.shields.io/maintenance/yes/2024.svg)](https://github.com/josdejong/jsoneditor/pulse)
 [![License](https://img.shields.io/github/license/josdejong/jsoneditor.svg)](https://github.com/josdejong/jsoneditor/blob/master/LICENSE)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjosdejong%2Fjsoneditor.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjosdejong%2Fjsoneditor?ref=badge_shield)
 
@@ -10,7 +10,7 @@ JSON Editor is a web-based tool to view, edit, format, and validate JSON. It has
 
 The library was originally developed as core component of the popular web application https://jsoneditoronline.org and has been open sourced since then.
 
-Supported browsers: Chrome, Firefox, Safari, Opera, Edge, Internet Explorer 11.
+Supported browsers: Chrome, Firefox, Safari, Edge.
 
 <img alt="json editor" src="https://raw.github.com/josdejong/jsoneditor/master/misc/jsoneditor.png"> &nbsp; <img alt="code editor" src="https://raw.github.com/josdejong/jsoneditor/master/misc/codeeditor.png">
 
@@ -76,9 +76,6 @@ JSONEditor has various modes, with the following features.
 with npm (recommended):
 
     npm install jsoneditor
-
-> Note that to use JSONEditor in Internet Explorer 11, it is necessary
-> to load a polyfill for `Promise` in your application.
 
 Alternatively, you can use another JavaScript package manager like https://yarnpkg.com/, or a CDN such as https://cdnjs.com/ or https://www.jsdelivr.com/.
 

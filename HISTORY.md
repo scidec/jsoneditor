@@ -3,6 +3,18 @@
 https://github.com/josdejong/jsoneditor
 
 
+## 2023-12-21, version 10.0.0
+
+- BREAKING CHANGE: dropped support for Internet Explorer 11.
+- Update dependencies `ace` and `jsonrepair`.
+
+
+## 2023-12-21, version 9.10.5
+
+- Revert dependency `jsonrepair` to `v3.1.0` to stay compatible with
+  Internet Explorer 11. Regression introduced in `v9.10.3`. See #1563.
+
+
 ## 2023-11-08, version 9.10.4
 
 - Fix #1558: url not wrapping on Chrome in mode `view`, font-size increasing
