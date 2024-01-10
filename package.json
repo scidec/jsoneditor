@@ -46,9 +46,9 @@
     "btoa": "1.2.1",
     "date-format": "4.0.14",
     "fancy-log": "2.0.0",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "4.3.0",
-    "gulp-concat-css": "3.1.0",
+    "gulp-concat-css": "^1.2.0",
     "gulp-sass": "5.1.0",
     "jsdom": "22.1.0",
     "json-loader": "0.5.7",
@@ -76,5 +76,9 @@
       "src/js/assets",
       "examples/react*"
     ]
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11",
+    "ttf2woff2": "^4.0.4"
   }
 }
