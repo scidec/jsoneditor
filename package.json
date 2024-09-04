@@ -48,7 +48,7 @@
     "fancy-log": "2.0.0",
     "gulp": "5.0.0",
     "gulp-clean-css": "4.3.0",
-    "gulp-concat-css": "^1.2.0",
+    "gulp-concat-css": "^3.1.0",
     "gulp-sass": "5.1.0",
     "jsdom": "24.1.0",
     "json-loader": "0.5.7",
