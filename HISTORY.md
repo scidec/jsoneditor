@@ -2,6 +2,13 @@
 
 <https://github.com/josdejong/jsoneditor>
 
+## 2024-11-13, version 10.1.1
+
+- Fix: when editing a key giving it a ` (copy)` suffix, the suffix was removed. 
+- Fix: #1627 `onValidationError` did not always trigger.
+- Fix: upgrade to the latest version of `ace`.
+- Fix: upgrade to the latest version of `sass`.
+
 ## 2024-06-19, version 10.1.0
 
 - Feat: upgrade to the latest version of `ace` and `jsonrepair`
